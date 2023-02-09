@@ -40,8 +40,8 @@ from ncbi_gene_table import NcbiGeneParser
 NcbiGeneParser(ncbi_id=None, find_gene_name=None, save_html_dir=None)
 ```
 
-- `NcbiGeneParser类`，共有三个可选参数，其中
-- `.dataframe`属性、`.save_html_content`属性需要用到的参数需要用到的参数
+- `NcbiGeneParser类`，共有三个可选参数
+- `.dataframe`属性、`.save_html_content`属性需要用到的参数如下
   
   - `ncbi_id`，是每个ncbi的基因都有的。例子中的NCBI id是51710，这个可以在ncbi上面查询到，以及由他人提供索引表，一个基因对应一个NCBI ID
   

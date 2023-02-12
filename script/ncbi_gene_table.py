@@ -16,9 +16,9 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 # from requests.adapters import HTTPAdapter
 
 # 配置文件读取
-BIN = os.path.dirname(__file__) + '/'
-config = ConfigParser()
-config.read(BIN + 'config.ini')
+# BIN = os.path.dirname(__file__) + '/'
+# config = ConfigParser()
+# config.read(BIN + 'config.ini')
 
 # 表格信息匹配
 ncbi_genome_string = ['GRCh38.p14', 'T2T-CHM13v2.0', 'GRCh37.p13']

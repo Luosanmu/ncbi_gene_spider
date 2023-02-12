@@ -1,6 +1,6 @@
 # Time: 2023-02-02
 # Author: Haosen Luo
-# Filename: ncbi_gene_table_v2.py
+# Filename: ncbi_gene_table.py
 # 注意事项, 需要保证环境中含有requests、faker、pandas等库
 import os
 import re
